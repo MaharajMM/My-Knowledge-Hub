@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20sp"
+    tools:context=".details_screens.MLActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Machine Learning"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:textColor="@color/blue"
+            />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200sp"
+            android:layout_height="95dp"
+            android:layout_weight="2"
+
+            app:srcCompat="@drawable/machine_learning" />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:padding="7sp"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="12sp"
+        android:text="To start learning machine learning (ML), you'll need a solid foundation in mathematics, statistics, and programming. You can start by taking a beginner's course or tutorial on these topics, which will provide you with a strong foundation to build upon." />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:layout_marginTop="12sp"
+        android:textStyle="bold"
+        android:text="5 Points to learn Machine Learning:"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="12sp"
+
+        android:text="1. Build a strong foundation in mathematics, statistics, and programming, including topics like calculus, linear algebra, probability theory, and a programming language like Python."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="7sp"
+
+        android:text="2.  Learn about supervised and unsupervised learning, which are the two main types of ML, and understand how they differ."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="7sp"
+
+        android:text="3. Study deep learning, which uses neural networks to learn from large amounts of data and is especially useful for tasks like image and speech recognition."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="7sp"
+
+        android:text="4. Explore natural language processing, which involves teaching computers to understand and interpret human language."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="7sp"
+
+        android:text="5. Practice your skills by working on real-world problems and participating in Kaggle competitions or other ML challenges. Additionally, take advantage of online resources. "/>
+
+
+</LinearLayout>

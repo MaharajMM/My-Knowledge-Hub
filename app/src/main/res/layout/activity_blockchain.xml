@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20sp"
+    tools:context=".details_screens.BlockchainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Blockchain Development"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:textColor="@color/blue"
+            />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200sp"
+            android:layout_height="95dp"
+            android:layout_weight="2"
+
+            app:srcCompat="@drawable/blockchain" />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:padding="7sp"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="12sp"
+        android:text="To start learning blockchain development, you'll need a solid foundation in programming and computer science and programming languages as well as familiarity with data structures and algorithms." />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:layout_marginTop="12sp"
+        android:textStyle="bold"
+        android:text="5 Points to learn Blockchain Development:"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="12sp"
+
+        android:text="1. Build a strong foundation in programming and computer science, including knowledge of programming languages such as Java, Python, and Solidity, as well as familiarity with data structures and algorithms."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="7sp"
+
+        android:text="2. Learn about blockchain-specific topics such as smart contracts, consensus algorithms, and distributed ledger technology."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="7sp"
+
+        android:text="3. Study the different types of blockchain networks, such as public, private, and hybrid, and understand their differences."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="7sp"
+
+        android:text="4.  Practice working on your own blockchain projects or contributing to open-source blockchain projects to gain hands-on experience."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="7sp"
+
+        android:text="5.  Take advantage of online resources such as Coursera, edX, and Udacity to learn more about blockchain development and stay up to date on the latest trends and technologies in the field."/>
+
+
+</LinearLayout>

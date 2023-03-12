@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="20sp"
+    tools:context=".details_screens.AiActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Artificial Intelligence"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:textColor="@color/blue"
+            />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200sp"
+            android:layout_height="95dp"
+            android:layout_weight="2"
+
+            app:srcCompat="@drawable/artificial_intelligence" />
+
+    </LinearLayout>
+
+
+
+    <TextView
+        android:padding="7sp"
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="12sp"
+        android:text="To start learning artificial intelligence (AI), you'll need to have a good understanding of mathematics, programming, and statistics. This includes topics like calculus, linear algebra, probability theory, and programming languages like Python." />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="12sp"
+        android:textStyle="bold"
+        android:text="5 Points to learn Artificial Intelligence:"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="12sp"
+
+        android:text="1. Build a strong foundation in mathematics, programming, and statistics, including calculus, linear algebra, probability theory, and programming languages like Python."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="7sp"
+
+        android:text="2. Learn about machine learning, which involves training algorithms to make predictions or decisions based on data."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="7sp"
+
+        android:text="3. Explore deep learning, a subset of machine learning that uses neural networks to analyze and learn from large amounts of data."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="7sp"
+
+        android:text="4. Study natural language processing, which involves teaching computers to understand human language and speech."/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginTop="7sp"
+
+        android:text="5. Practice working on real-world AI problems by participating in hackathons or Kaggle competitions. Additionally, take advantage of online resources such as Coursera, edX, and Udacity to learn more about AI."/>
+
+
+</LinearLayout>

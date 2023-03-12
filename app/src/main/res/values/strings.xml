@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Knowledge Hub</string>
+    <string name="intro_to_android">To start learning Android development, you\'ll need to have some basic knowledge of Java programming language. You can start by taking a beginner\'s Java course. Once you have a good understanding of Java, you can move on to Android development.</string>
+    <string name="intro_to_web">To start learning web development, you need to have some basic knowledge of HTML, CSS, and JavaScript. HTML provides the structure of a webpage, CSS adds visual styling, and JavaScript adds interactivity and functionality. You can start by taking a beginner\'s course or tutorial on these languages, which will teach you the basics of web development.</string>
+</resources>
